@@ -28,7 +28,6 @@ public class TaskRepository {
     public List<Task> findAll() {
         return tareas;
     }
-
     /**
      * Metodo para guardar una nueva tarea en la lista
      */
