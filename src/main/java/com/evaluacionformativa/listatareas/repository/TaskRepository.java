@@ -20,7 +20,7 @@ public class TaskRepository {
     /**
      * Un contador manual para simular los IDs autoincrementables de una base de datos
      */
-    private int idContador = 1L;
+    private int idContador;
 
     /**
      * Método para obtener la lista completa de tareas
